@@ -26,8 +26,7 @@ In each ROI:
 * Only keep astrocytes somas colocalizing with a nucleus
 * Detect vessels with Remove outliers (to remove microglia cells processes) + Median filtering + thresholding + closing
 * Find foci with Stardist
-* Count foci in vessels, astrocytes somas and in the rest of the ROI
-* Give vessels ans astrocytes somas volume + foci number in each compartment as foci total volume/minimum foci volume
+* Give volume of each compartment (vessels/astrocytes somas/rest of the ROI) + foci number in each compartment as foci total volume/minimum foci volume
 
 ### Dependencies
 
